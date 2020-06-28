@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 
-from ..model_training.cross_entropy_pre_training.cross_entropy_model import FBankCrossEntropyNet
+from cross_entropy_model import FBankCrossEntropyNet
 
 
 def get_cosine_distance(a, b):

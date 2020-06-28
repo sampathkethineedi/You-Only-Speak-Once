@@ -5,7 +5,7 @@ RUN pip install flask==1.1.1
 RUN pip install torch==1.4.0+cpu torchvision==0.5.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 RUN pip install librosa==0.7.2
 RUN pip install python-speech-features==0.6
-
+RUN pip3 install numba==0.48.0
 RUN apt-get update -y
 RUN apt-get install -y libsndfile1
 
