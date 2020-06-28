@@ -1,4 +1,4 @@
-# You Only Speak Once
+# You Only Speak Once - Fork
 ## One Shot Learning using Siamese Network for Speaker Recognition
 
 
@@ -9,8 +9,11 @@ Added speaker registration and recognition from microphone
 run `python test_api.py`
 
 Functionality
+
 `/GET localhost:5000/recognise`
+
 `/POST localhost:5000/register {"speaker": < name >}`
+
 `/POST localhost:5000/delete {"speaker": < name >}`
 
 ## Introduction
