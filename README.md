@@ -1,6 +1,18 @@
 # You Only Speak Once
 ## One Shot Learning using Siamese Network for Speaker Recognition
 
+
+## Switch to fbank_net/demo/test_api.py
+
+Added speaker registration and recognition from microphone
+
+run `python test_api.py`
+
+Functionality
+`/GET localhost:5000/recognise`
+`/POST localhost:5000/register {"speaker": < name >}`
+`/POST localhost:5000/delete {"speaker": < name >}`
+
 ## Introduction
 Biometric authentication systems rely on some kind of visual input, such as fingerprints and Face ID. However, devices like Alexa only receive audio as input that can be leveraged for authentication.
 Our project aims to develop a one shot learning based voice authentication system using siamese network. We intend to develop a neural speaker embedding system that maps utterances to a hyperspace where speaker similarity is measured by cosine similarity.  
